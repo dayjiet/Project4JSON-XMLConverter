@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
 
 import static java.util.Collections.emptyList;
 
-public class JsonParser implements Parser {
+public class JSONParser implements Parser {
     private final Predicate<Field> isSpecial = field -> field.name.matches("([#@]).*");
     private final CharQueue queue = new CharQueue();
 

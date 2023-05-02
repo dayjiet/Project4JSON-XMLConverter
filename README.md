@@ -1,7 +1,7 @@
 # JSON - XML converter
 
 This project is a command-line tool for converting JSON files to XML and vice versa. The project includes a
-`JsonToXmlConverter` class and an `XmlToJsonConverter` class to convert between the two formats. The tool also includes 
+`ToXMLConverter` class and an `ToJSONConverter` class to convert between the two formats. The tool also includes 
 a `XmlParser` class to parse XML files, a `JsonFormatter` class to format JSON files and a `JsonParser` class to parse 
 JSON files, a `XmlFormatter` class to format XML files.
 
@@ -22,7 +22,7 @@ it is in JSON or XML format. The tool will then convert the file to the opposite
 console.
 3. Note that if the tool is unable to determine the input file format or is unable to convert the file, it will print 
 an error message to the console.
-4. The tool can be further customized by modifying the `JsonToXmlConverter`, `XmlToJsonConverter`, `XmlParser`, 
+4. The tool can be further customized by modifying the `ToXMLConverter`, `ToJSONConverter`, `XmlParser`, 
 `JsonFormatter`, `JsonParser` and `XmlParser` classes to fit specific requirements.
 
 ## Dependencies

@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 
 import static util.Strings.encloseInQuotes;
 
-public class XmlFormatter implements Formatter {
+public class XMLFormatter implements Formatter {
 
     @Override
     public String format(List<Element> elements) {

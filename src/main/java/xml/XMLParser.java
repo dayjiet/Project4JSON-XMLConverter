@@ -9,7 +9,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
-public class XmlParser implements Parser {
+public class XMLParser implements Parser {
     private static final Pattern ATTRIBUTE_PATTERN =
             Pattern.compile("(?<name>\\w+)\\s*=\\s*([\"'])(?<value>.*?)\\2");
 

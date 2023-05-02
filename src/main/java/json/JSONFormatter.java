@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 
 import static util.Strings.encloseInQuotes;
 
-public class JsonFormatter implements Formatter {
+public class JSONFormatter implements Formatter {
     @Override
     public String format(Element element) {
         return format(element, true, true);
