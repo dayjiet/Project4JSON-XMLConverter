@@ -31,7 +31,7 @@ To use the JSON-XML converter, follow these steps:
 4. Run the program.
 5. The converter will automatically detect the input format and convert it to the opposite format.
 6. The converted data will be printed to the console.
-```
+```agsl
 public static void main(String[] args) {
     new JSONXMLConverter().run();
 }
