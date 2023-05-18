@@ -1,6 +1,7 @@
 # JSON - XML converter
-
-```https://hyperskill.org/projects/61?track=12```
+```html
+https://hyperskill.org/projects/61?track=12
+```
 
 ## Table of Contents
 - [Description](#description)
@@ -15,7 +16,6 @@
 This project is a JSON-XML converter that allows you to convert data between JSON and XML formats. JSON (JavaScript Object Notation) and XML (eXtensible Markup Language) are both commonly used formats for storing and exchanging data. JSON is often used in web development and APIs, while XML has a broader range of applications, including data storage and document representation.
 
 ## Features
-
 - Conversion between JSON and XML: The converter supports converting data from JSON format to XML format and vice versa.
 - Object-oriented design: The project follows an object-oriented programming approach, utilizing classes and inheritance to organize and structure the code.
 - Readability and usability: The converter ensures that the converted data is readable by both computers and humans, maintaining the structure and integrity of the original data.
@@ -31,7 +31,7 @@ To use the JSON-XML converter, follow these steps:
 4. Run the program.
 5. The converter will automatically detect the input format and convert it to the opposite format.
 6. The converted data will be printed to the console.
-```agsl
+```java
 public static void main(String[] args) {
     new JSONXMLConverter().run();
 }
@@ -67,6 +67,7 @@ Ensure that you have the necessary Java environment and JUnit framework set up t
 
 ## Contact Information
 For any questions, concerns, or suggestions regarding the JSON-XML converter project, please contact:
-- Project Maintainer: Daulet Toganbayev
-- Email: daulet.toganbayev@gmail.com
+- Project Maintainer: ```Daulet Toganbayev```
+- Email: ```daulet.toganbayev@gmail.com```
+
 Feel free to reach out with any inquiries related to the project. Your feedback is valuable and contributes to the improvement of the JSON-XML converter.
