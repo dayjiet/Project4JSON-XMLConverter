@@ -36,7 +36,6 @@ public static void main(String[] args) {
     new servicing.JSONXMLConverter().run();
 }
 ```
-Please note that this project uses the Scanner class to read input from a file. Make sure to update the file path in the Scanner constructor to match your specific file location.
 
 To run the Project4JSON-XMLConverter-1.0-SNAPSHOT.jar file, perform the following steps:
 
@@ -47,6 +46,8 @@ To run the Project4JSON-XMLConverter-1.0-SNAPSHOT.jar file, perform the followin
 java -jar Project4JSON-XMLConverter-1.0-SNAPSHOT.jar
 ```
 4. Follow the on-screen instructions: The program will display a menu with different options. Enter the corresponding number to perform the desired action.
+
+Please note that this project uses the Scanner class to read input from a file. Make sure to update the file path in the Scanner constructor to match your specific file location.
 
 ## Feedback
 During the development of the JSON-XML converter project, I gained valuable knowledge and experience in various areas. Firstly, I deepened my understanding of JSON and XML as data formats and their significance in storing data in a readable manner for both humans and computers. I learned about the differences between these formats and the challenges involved in converting data from one format to another.
