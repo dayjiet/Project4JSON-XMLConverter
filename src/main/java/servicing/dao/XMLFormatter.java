@@ -1,15 +1,23 @@
-package servicing.xml;
+package servicing.dao;
 
-import servicing.base.Element;
-import servicing.base.Formatter;
+import servicing.service.Element;
+import servicing.view.Formatter;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static servicing.util.Strings.encloseInQuotes;
+import static servicing.service.Strings.encloseInQuotes;
 
+/**
+ * XMLFormatter class is responsible for formatting XML elements and lists of elements into XML string representation.
+ */
 public class XMLFormatter implements Formatter {
 
+    /**
+     * Formats a list of elements into an XML string representation.
+     * @param elements the list of elements to format
+     * @return the XML string representation of the elements
+     */
     @Override
     public String format(List<Element> elements) {
 
@@ -23,6 +31,11 @@ public class XMLFormatter implements Formatter {
         return String.format("<root>%s</root>", children);
     }
 
+    /**
+     * Formats an element into an XML string representation.
+     * @param element the element to format
+     * @return the XML string representation of the element
+     */
     @Override
     public String format(Element element) {
         StringBuilder result = new StringBuilder();

@@ -1,10 +1,10 @@
-package servicing.json;
+package servicing.dao;
 
-import servicing.base.Attribute;
-import servicing.base.Element;
-import servicing.base.Parser;
-import servicing.util.CharQueue;
-import servicing.util.Strings;
+import servicing.service.Attribute;
+import servicing.service.Element;
+import servicing.view.Parser;
+import servicing.service.CharQueue;
+import servicing.service.Strings;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,10 +14,18 @@ import java.util.stream.Collectors;
 
 import static java.util.Collections.emptyList;
 
+/**
+ * Represents a parser that parses JSON strings into a list of elements.
+ */
 public class JSONParser implements Parser {
     private final Predicate<Field> isSpecial = field -> field.name.matches("([#@]).*");
     private final CharQueue queue = new CharQueue();
 
+    /**
+     * Parses the JSON input string and returns a list of elements.
+     * @param input the JSON input string to be parsed
+     * @return a list of elements parsed from the JSON input
+     */
     @Override
     public List<Element> parse(String input) {
         // System.err.println(s);

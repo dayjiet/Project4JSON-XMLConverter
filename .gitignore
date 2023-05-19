@@ -7,7 +7,6 @@ target/
 .gradle/*
 .idea/*
 .build/*
-!**/libs/Project4JSON-XMLConverter-1.0-SNAPSHOT.jar
 *.iws
 *.iml
 *.ipr

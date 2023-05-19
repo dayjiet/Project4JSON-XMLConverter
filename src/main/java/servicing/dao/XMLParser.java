@@ -1,14 +1,17 @@
-package servicing.xml;
+package servicing.dao;
 
-import servicing.base.Attribute;
-import servicing.base.Element;
-import servicing.base.Parser;
+import servicing.service.Attribute;
+import servicing.service.Element;
+import servicing.view.Parser;
 
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
+/**
+ * XMLParser class is responsible for parsing XML strings into a list of Element objects.
+ */
 public class XMLParser implements Parser {
     private static final Pattern ATTRIBUTE_PATTERN =
             Pattern.compile("(?<name>\\w+)\\s*=\\s*([\"'])(?<value>.*?)\\2");
@@ -17,6 +20,11 @@ public class XMLParser implements Parser {
             Pattern.compile("<\\s*(?<name>\\w+)\\s*(?<attributes>(\\s*\\w+\\s*=\\s*([\"']).*?\\4\\s*)*?)\\s*(/>|>)");
     private Queue<String> tokens;
 
+    /**
+     * Parses the given input string into a list of Element objects.
+     * @param input the XML input string to parse
+     * @return a list of Element objects representing the parsed XML
+     */
     @Override
     public List<Element> parse(String input) {
         tokens = new ArrayDeque<>(split(input));

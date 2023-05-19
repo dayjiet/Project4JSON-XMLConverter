@@ -1,13 +1,22 @@
-package servicing.json;
+package servicing.dao;
 
-import servicing.base.Element;
-import servicing.base.Formatter;
+import servicing.service.Element;
+import servicing.view.Formatter;
 
 import java.util.stream.Collectors;
 
-import static servicing.util.Strings.encloseInQuotes;
+import static servicing.service.Strings.encloseInQuotes;
 
+/**
+ * Represents a formatter that formats elements into JSON format.
+ */
 public class JSONFormatter implements Formatter {
+
+    /**
+     * Formats the given element into a JSON string representation.
+     * @param element the element to be formatted
+     * @return the formatted JSON string representation of the element
+     */
     @Override
     public String format(Element element) {
         return format(element, true, true);
