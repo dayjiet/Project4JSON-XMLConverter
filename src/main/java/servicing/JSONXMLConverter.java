@@ -1,4 +1,6 @@
-import base.Converter;
+package servicing;
+
+import servicing.base.Converter;
 
 import java.io.File;
 import java.io.IOException;
@@ -14,7 +16,7 @@ public class JSONXMLConverter implements Runnable {
     public void run() {
         Converter[] converters = {new ToXMLConverter(), new ToJSONConverter()};
 
-        try (Scanner scanner = new Scanner(new File("src/test/java/test.txt"))) {
+        try (Scanner scanner = new Scanner(new File("test.txt"))) {
             // try (Scanner scanner = new Scanner(new File("test.txt"))) {
             String input = scanner.tokens()
                     .collect(Collectors.joining(" "));

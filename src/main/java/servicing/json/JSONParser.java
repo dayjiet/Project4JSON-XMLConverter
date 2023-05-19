@@ -1,10 +1,10 @@
-package json;
+package servicing.json;
 
-import base.Attribute;
-import base.Element;
-import base.Parser;
-import util.CharQueue;
-import util.Strings;
+import servicing.base.Attribute;
+import servicing.base.Element;
+import servicing.base.Parser;
+import servicing.util.CharQueue;
+import servicing.util.Strings;
 
 import java.util.ArrayList;
 import java.util.List;

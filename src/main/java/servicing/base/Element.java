@@ -1,8 +1,8 @@
-package base;
+package servicing.base;
 
 import java.util.List;
 
-import static util.Lists.last;
+import static servicing.util.Lists.last;
 
 public class Element {
     private final List<Attribute> attributes;

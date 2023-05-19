@@ -1,8 +1,8 @@
-package xml;
+package servicing.xml;
 
-import base.Attribute;
-import base.Element;
-import base.Parser;
+import servicing.base.Attribute;
+import servicing.base.Element;
+import servicing.base.Parser;
 
 import java.util.*;
 import java.util.regex.Matcher;

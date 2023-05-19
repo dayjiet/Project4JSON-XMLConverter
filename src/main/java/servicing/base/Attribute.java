@@ -1,4 +1,4 @@
-package base;
+package servicing.base;
 
 public class Attribute {
     private final String name;

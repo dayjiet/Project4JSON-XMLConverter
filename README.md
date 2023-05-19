@@ -27,16 +27,26 @@ To use the JSON-XML converter, follow these steps:
 
 1. Ensure that you have the necessary dependencies installed (see Dependencies section).
 2. Prepare your input data in either JSON or XML format.
-3. In the main method of the JSONXMLConverter class, specify the file path of your input data.
+3. In the main method of the servicing.JSONXMLConverter class, specify the file path of your input data.
 4. Run the program.
 5. The converter will automatically detect the input format and convert it to the opposite format.
 6. The converted data will be printed to the console.
 ```java
 public static void main(String[] args) {
-    new JSONXMLConverter().run();
+    new servicing.JSONXMLConverter().run();
 }
 ```
 Please note that this project uses the Scanner class to read input from a file. Make sure to update the file path in the Scanner constructor to match your specific file location.
+
+To run the Project4JSON-XMLConverter-1.0-SNAPSHOT.jar file, perform the following steps:
+
+1. Download the JAR file.
+2. Open a terminal or command prompt: Navigate to the directory where the JAR file is located.
+3. Run the JAR file: Enter the following command to execute the JAR file:
+```shell
+java -jar Project4JSON-XMLConverter-1.0-SNAPSHOT.jar
+```
+4. Follow the on-screen instructions: The program will display a menu with different options. Enter the corresponding number to perform the desired action.
 
 ## Feedback
 During the development of the JSON-XML converter project, I gained valuable knowledge and experience in various areas. Firstly, I deepened my understanding of JSON and XML as data formats and their significance in storing data in a readable manner for both humans and computers. I learned about the differences between these formats and the challenges involved in converting data from one format to another.

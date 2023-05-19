@@ -1,4 +1,4 @@
-package util;
+package servicing.util;
 
 public class Strings {
     public static String emptyIfNull(String input) {

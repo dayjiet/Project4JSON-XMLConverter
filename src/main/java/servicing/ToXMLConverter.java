@@ -1,6 +1,8 @@
-import base.AbstractConverter;
-import json.JSONParser;
-import xml.XMLFormatter;
+package servicing;
+
+import servicing.base.AbstractConverter;
+import servicing.json.JSONParser;
+import servicing.xml.XMLFormatter;
 
 public class ToXMLConverter extends AbstractConverter {
     public ToXMLConverter() {

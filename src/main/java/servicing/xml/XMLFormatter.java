@@ -1,12 +1,12 @@
-package xml;
+package servicing.xml;
 
-import base.Element;
-import base.Formatter;
+import servicing.base.Element;
+import servicing.base.Formatter;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static util.Strings.encloseInQuotes;
+import static servicing.util.Strings.encloseInQuotes;
 
 public class XMLFormatter implements Formatter {
 
