@@ -1,7 +1,4 @@
-# JSON - XML converter
-```html
-https://hyperskill.org/projects/61?track=12
-```
+# [JSON - XML converter](https://hyperskill.org/projects/61?track=12)
 
 ## Table of Contents
 - [Description](#description)
@@ -31,7 +28,7 @@ To use the JSON-XML converter, follow these steps:
 4. Run the program.
 5. The converter will automatically detect the input format and convert it to the opposite format.
 6. The converted data will be printed to the console.
-```java
+```
 public static void main(String[] args) {
     new servicing.JSONXMLConverter().run();
 }
@@ -67,8 +64,8 @@ This project has the following dependencies:
 Ensure that you have the necessary Java environment and JUnit framework set up to compile and run the project successfully.
 
 ## Contact Information
-For any questions, concerns, or suggestions regarding the JSON-XML converter project, please contact:
-- Project Maintainer: ```Daulet Toganbayev```
+If you have any questions, suggestions, or feedback regarding the Cinema Room Manager project, please contact:
+- Project Developer: ```Daulet Toganbayev```
 - Email: ```daulet.toganbayev@gmail.com```
 
-Feel free to reach out with any inquiries related to the project. Your feedback is valuable and contributes to the improvement of the JSON-XML converter.
+Feel free to reach out with any inquiries or contributions. Your input is highly appreciated!
