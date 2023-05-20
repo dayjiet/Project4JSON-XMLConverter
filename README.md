@@ -37,16 +37,6 @@ public static void main(String[] args) {
 }
 ```
 
-To run the Project4JSON-XMLConverter-1.0-SNAPSHOT.jar file, perform the following steps:
-
-1. Download the JAR file.
-2. Open a terminal or command prompt: Navigate to the directory where the JAR file is located.
-3. Run the JAR file: Enter the following command to execute the JAR file:
-```shell
-java -jar Project4JSON-XMLConverter-1.0-SNAPSHOT.jar
-```
-4. Follow the on-screen instructions: The program will display a menu with different options. Enter the corresponding number to perform the desired action.
-
 Please note that this project uses the Scanner class to read input from a file. Make sure to update the file path in the Scanner constructor to match your specific file location.
 
 ## Feedback
