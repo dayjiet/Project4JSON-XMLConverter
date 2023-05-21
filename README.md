@@ -64,7 +64,7 @@ This project has the following dependencies:
 Ensure that you have the necessary Java environment and JUnit framework set up to compile and run the project successfully.
 
 ## Contact Information
-If you have any questions, suggestions, or feedback regarding the Cinema Room Manager project, please contact:
+If you have any questions, suggestions, or feedback regarding the JSON - XML converter project, please contact:
 - Project Developer: ```Daulet Toganbayev```
 - Email: ```daulet.toganbayev@gmail.com```
 
